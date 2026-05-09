@@ -13,6 +13,9 @@ public class HomeController {
 	
 	
 	
+	
+	
+	
 	@GetMapping("/listadi")
 	public String mostrarLista(Model model) {
 		List<String> lista = (List<String>) new LinkedHashSet<String>();
